@@ -151,9 +151,10 @@ p {
   }
   .link {
     border: 2px solid #fff;
-    padding: 20px 30px;
+    padding: 15px 20px;
     border-radius: 100px;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 
@@ -183,6 +184,7 @@ p {
     }
     .select {
       margin-left: auto;
+      margin-right: 50px;
       width: 250px;
       height: 40px;
       border: 1px solid #ccc;
@@ -197,7 +199,11 @@ p {
       padding-left: 50px;
     }
     .inter {
+      display: flex;
+      margin-right: 50px;
       img {
+        width: 50px;
+        height: 50px;
       }
     }
   }
